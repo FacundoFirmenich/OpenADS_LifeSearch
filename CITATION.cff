@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Firmenich"
+    given-names: "Facundo"
+title: "OpenADS_LifeSearch: Advanced Astro-Complexity and Bayesian Discovery Framework"
+version: 1.0.0
+date-released: 2026-03-23
+url: "https://github.com/FacundoFirmenich/OpenADS_LifeSearch"
+repository-code: "https://github.com/FacundoFirmenich/OpenADS_LifeSearch"
+license: GPL-3.0-or-later
+keywords:
+  - Astrobiology
+  - Planetary Science
+  - Network Science
+  - Natural Language Processing
+  - Graph Theory
+  - Bayesian Probability
+  - Open Science
+  - Scientometrics

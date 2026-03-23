@@ -1,0 +1,24 @@
+# Ecom-system rules
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter and Logs
+.ipynb_checkpoints
+*.log
+
+# Framework Outputs (Ignorar datasets pesados y PDF parseados)
+outputs/
+data/
+*.csv
+*.pdf
+*.png
+
+# OS Specific
+.DS_Store
+Thumbs.db
