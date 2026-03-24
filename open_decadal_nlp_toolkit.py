@@ -148,6 +148,25 @@ class DecadalNLPCLI:
             
             print(self.df_tc.to_string(index=False))
             
+            # --- NEW: Spearman Rho Validation Logic ---
+            print("\n" + "-"*40)
+            print(" [ CROSS-VALIDATION WITH BIBLIOMETRIC EVIDENCE ]")
+            print(" Do you want to correlate these mentions with E(T) scores?")
+            if input(" >>> Correlate with custom Evidence scores? (y/n): ").strip().lower() == 'y':
+                ev_data = {}
+                for t in targets:
+                    try:
+                        ev_data[t] = float(input(f" Enter Evidence Score E({t}) [0-1]: "))
+                    except: ev_data[t] = 0.0
+                
+                self.df_tc['Evidence'] = self.df_tc['Target'].map(ev_data)
+                from scipy.stats import spearmanr
+                rho, p = spearmanr(self.df_tc['Mentions'], self.df_tc['Evidence'])
+                print(f"\n [+] Spearman's Rho: {rho:.4f} (p-value: {p:.4f})")
+                stat = "Strong Alignment" if rho > 0.7 else ("Decoupled Priorities" if rho < 0.3 else "Moderate Tracking")
+                print(f" [+] Diagnostic: {stat}")
+            # ------------------------------------------
+
             if input("\n >>> Export Corporative Graphical Plots? (y/n): ").strip().lower() == 'y':
                 fig, ax = plt.subplots(figsize=(8, 5))
                 sns.barplot(data=self.df_tc, x="Target", y="Mentions", palette="magma", ax=ax, hue="Target", legend=False)
