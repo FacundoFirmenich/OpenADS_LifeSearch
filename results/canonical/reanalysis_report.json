@@ -1,0 +1,21 @@
+{
+  "schema": "openads-lifesearch-canonical-v1",
+  "deterministic": true,
+  "network_calls": false,
+  "randomness": false,
+  "synthetic_data": false,
+  "raw_assignments": 10317,
+  "unique_bibcodes": 9513,
+  "multi_target_unique_bibcodes": 664,
+  "multi_target_share": 0.06979922211710292,
+  "metadata_conflicts": 0,
+  "weight_rule": "1 / max(1, parsed_author_count)",
+  "trajectory_model": "OLS log(1 + annual raw count) on year, 2000-2024",
+  "citation_reference": "mean citations among unique retrieved bibcodes in the same publication year",
+  "limitations": [
+    "retrieval is an archived, asymmetric historical snapshot, not a census",
+    "author strings do not identify persons or labour-time FTE",
+    "the citation ratio controls publication year only, not field or document type",
+    "six targets provide limited resolution for rank-correlation inference"
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "Enceladus_ads_raw.csv",
+    "target": "Enceladus",
+    "rows": 741,
+    "bytes": 704287,
+    "sha256": "7e5650b57f544a6efc9b2425cbbf132c13612a0b42e78fd95c3bba3be47db537"
+  },
+  {
+    "file": "Europa_ads_raw.csv",
+    "target": "Europa",
+    "rows": 1375,
+    "bytes": 1247766,
+    "sha256": "d611499dabc65b59a95748ca59ab760058cce8db4563f93cd4889141be74ae2d"
+  },
+  {
+    "file": "Mars_ads_raw.csv",
+    "target": "Mars",
+    "rows": 5629,
+    "bytes": 5392660,
+    "sha256": "add2ceb21c1e30d07cba841666900f3bac7b6d8001caaddf2cbd0fa4df08e2cd"
+  },
+  {
+    "file": "Titan_ads_raw.csv",
+    "target": "Titan",
+    "rows": 1649,
+    "bytes": 1792445,
+    "sha256": "f432307c3bea175ec51ca36abcdca000d2451e5d4c6f1a5afeadeef26d0a6e2f"
+  },
+  {
+    "file": "Venus_ads_raw.csv",
+    "target": "Venus",
+    "rows": 464,
+    "bytes": 512259,
+    "sha256": "c4b1f71804d9b1666e8bf641e4bf0f7600ff7cb99959257d6768e9e644fad6fd"
+  },
+  {
+    "file": "Ganymede_ads_raw.csv",
+    "target": "Ganymede",
+    "rows": 459,
+    "bytes": 457927,
+    "sha256": "adeb7b94da5861138271aa3a5a9db131d394014cdab4b3e305605b5b0c56c31a"
+  }
+]

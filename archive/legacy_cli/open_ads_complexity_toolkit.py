@@ -31,7 +31,6 @@ class ADSTopologyCLI:
         self.api_token = os.getenv("SCIX_API_TOKEN") or os.getenv("ADS_API_TOKEN") or os.getenv("ADS_DEV_KEY")
         if not self.api_token:
             raise SystemExit("Set SCIX_API_TOKEN or ADS_API_TOKEN before querying ADS.")
-
         self.query = 'keyword:"astrobiology" AND year:2020-2024'
         self.max_records = 300
         self.out_dir = Path("outputs/ads_complexity_cli")
@@ -40,7 +39,8 @@ class ADSTopologyCLI:
         self.G = None
         self.df_cent = pd.DataFrame()
         self.pmi_results = []
-        ads.config.token = self.api_token
+        if self.api_token:
+            ads.config.token = self.api_token
 
     def clear(self):
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -78,7 +78,7 @@ class ADSTopologyCLI:
 
     def menu_config(self):
         self.header()
-        print(f" [*] Current API Token: {self.api_token[:5]}...{self.api_token[-5:]}")
+        print(f" [*] ADS API Token configured: {'yes' if self.api_token else 'no'}")
         print(f" [*] Output Directory: {self.out_dir}")
         print("\n Options:")
         print(" 1. Modify API Token")
@@ -110,6 +110,10 @@ class ADSTopologyCLI:
         print(" 0. Return to Main Menu")
         c = input("\n >>> Option: ").strip()
         if c == '1':
+            if not self.api_token:
+                print("\n [ERROR] Set ADS_API_TOKEN or ADS_DEV_KEY, or configure a token in this session.")
+                input("\n [Press ENTER to return]")
+                return
             print("\n [!] Interfacing with NASA ADS Servers...")
             try:
                 papers = list(ads.SearchQuery(q=self.query, fl=['bibcode', 'title', 'abstract', 'keyword'], rows=self.max_records))

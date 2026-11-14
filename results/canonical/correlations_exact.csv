@@ -1,0 +1,11 @@
+metric_a,metric_b,spearman_rho,exact_two_sided_p,n_targets,n_permutations
+raw_count,reciprocal_authorship_count,1.0,0.002777777777777778,6,720
+raw_count,recent_reciprocal_count_2019_2024,0.8285714285714287,0.058333333333333334,6,720
+raw_count,loglinear_annual_rate_2000_2024,-0.3142857142857143,0.5638888888888889,6,720
+raw_count,corpus_year_normalized_citation_ratio,-0.8285714285714287,0.058333333333333334,6,720
+reciprocal_authorship_count,recent_reciprocal_count_2019_2024,0.8285714285714287,0.058333333333333334,6,720
+reciprocal_authorship_count,loglinear_annual_rate_2000_2024,-0.3142857142857143,0.5638888888888889,6,720
+reciprocal_authorship_count,corpus_year_normalized_citation_ratio,-0.8285714285714287,0.058333333333333334,6,720
+recent_reciprocal_count_2019_2024,loglinear_annual_rate_2000_2024,0.028571428571428574,1.0,6,720
+recent_reciprocal_count_2019_2024,corpus_year_normalized_citation_ratio,-0.6,0.24166666666666667,6,720
+loglinear_annual_rate_2000_2024,corpus_year_normalized_citation_ratio,0.6,0.24166666666666667,6,720

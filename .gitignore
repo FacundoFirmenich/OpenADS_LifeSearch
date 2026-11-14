@@ -1,4 +1,3 @@
-# Ecom-system rules
 __pycache__/
 *.py[cod]
 *$py.class
@@ -8,18 +7,26 @@ ENV/
 env/
 .env
 
-# Jupyter and Logs
 .ipynb_checkpoints
 *.log
-
-# Framework Outputs (Ignorar datasets pesados y PDF parseados)
 outputs/
-data/
-*.csv
-*.pdf
-*.png
+tmp/
 
-# OS Specific
+# Record-level ADS exports are author-held and may not be redistributed.
+data/raw/*.csv
+data/raw/*.json
+!data/raw/README.md
+
+# LaTeX build intermediates. Final author PDFs and TeX are not stored here.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.synctex.gz
+
 .DS_Store
 Thumbs.db
 
