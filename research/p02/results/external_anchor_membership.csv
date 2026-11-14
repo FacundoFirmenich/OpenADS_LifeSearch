@@ -1,0 +1,10 @@
+target,title,doi,source,status,archive_matches,checked_external_bibcode,external_bibcode_in_archive
+Enceladus,Macromolecular organic compounds from the depths of Enceladus,10.1038/s41586-018-0246-4,NASEM ocean worlds chapter DOI 10.17226/26522,TARGET_ASSIGNMENT_FOUND,Enceladus:2018Natur.558..564P,,
+Enceladus,Ongoing hydrothermal activities within Enceladus,10.1038/nature14262,NASEM ocean worlds chapter DOI 10.17226/26522,TARGET_ASSIGNMENT_FOUND,Enceladus:2015Natur.519..207H,,
+Europa,A measurement of water vapour amid a largely quiescent environment on Europa,10.1038/s41550-019-0933-6,NASEM ocean worlds chapter DOI 10.17226/26522,NO_EXACT_TITLE_MATCH,,2020NatAs...4..266P,False
+Ganymede,The search for a subsurface ocean in Ganymede with Hubble Space Telescope observations of its auroral ovals,10.1002/2014JA020778,Wiley publisher record,TARGET_ASSIGNMENT_FOUND,Ganymede:2015JGRA..120.1715S,,
+Mars,No detection of methane on Mars from early ExoMars Trace Gas Orbiter observations,10.1038/s41586-019-1096-4,NASEM ocean worlds chapter DOI 10.17226/26522,TARGET_ASSIGNMENT_FOUND,Mars:2019Natur.568..517K,,
+Mars,Distribution and habitability of (meta)stable brines on present-day Mars,10.1038/s41550-020-1080-9,NASEM ocean worlds chapter DOI 10.17226/26522,TARGET_ASSIGNMENT_FOUND,Mars:2020NatAs...4..756R,,
+Titan,The tides of Titan,10.1126/science.1219631,NASEM ocean worlds chapter DOI 10.17226/26522,TARGET_ASSIGNMENT_FOUND,Titan:2012Sci...337..457I,,
+Venus,Phosphine gas in the cloud decks of Venus,10.1038/s41550-020-1174-4,NASEM search for life chapter DOI 10.17226/26522,TARGET_ASSIGNMENT_FOUND,Venus:2021NatAs...5..655G,,
+Venus,Venus' spectral signatures and the potential for life in the clouds,10.1089/ast.2017.1783,PubMed publisher DOI record,TARGET_ASSIGNMENT_FOUND,Venus:2018AsBio..18.1181L,,

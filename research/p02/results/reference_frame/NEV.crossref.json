@@ -1,0 +1,1400 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2026-10-14T17:34:17Z",
+      "timestamp": 1791999257829,
+      "version": "4.4.0"
+    },
+    "reference-count": 213,
+    "publisher": "SAGE Publications",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2018-11-01T00:00:00Z",
+          "timestamp": 1541030400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2018-11-01T00:00:00Z",
+          "timestamp": 1541030400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Astrobiology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1089/ast.2017.1773",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          4
+        ]
+      ],
+      "date-time": "2018-06-04T08:26:23Z",
+      "timestamp": 1528100783000
+    },
+    "page": "1375-1402",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 264,
+    "title": [
+      "The Ladder of Life Detection"
+    ],
+    "prefix": "10.1177",
+    "volume": "18",
+    "author": [
+      {
+        "given": "Marc",
+        "family": "Neveu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Universities Space Research Association"
+          },
+          {
+            "name": "NASA Headquarters"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lindsay E.",
+        "family": "Hays",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Headquarters"
+          },
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mary A.",
+        "family": "Voytek",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Headquarters"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael H.",
+        "family": "New",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Headquarters"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mitchell D.",
+        "family": "Schulte",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Headquarters"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_3_2_1",
+        "first-page": "451",
+        "article-title": "Microflora of the deep glacier horizons of central Antarctica",
+        "volume": "67",
+        "author": "Abyzov S.S.",
+        "year": "1998",
+        "unstructured": "Abyzov S.S., , Mitskevich I.N., , and Poglazova M.N. (1998) Microflora of the deep glacier horizons of central Antarctica. Microbiology, 67:451–458.",
+        "journal-title": "Microbiology"
+      },
+      {
+        "key": "e_1_3_3_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rcm.470"
+      },
+      {
+        "key": "e_1_3_3_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006EO410001"
+      },
+      {
+        "key": "e_1_3_3_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.274.5295.2119-c"
+      },
+      {
+        "key": "e_1_3_3_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0019-1035(72)90140-6"
+      },
+      {
+        "key": "e_1_3_3_7_1",
+        "first-page": "S49",
+        "article-title": "Limit of blank, limit of detection and limit of quantitation",
+        "volume": "29",
+        "author": "Armbruster D.A.",
+        "year": "2008",
+        "unstructured": "Armbruster D.A., and Pry T. (2008) Limit of blank, limit of detection and limit of quantitation. Clin Biochem Rev, 29:S49–S52.",
+        "journal-title": "Clin Biochem Rev"
+      },
+      {
+        "key": "e_1_3_3_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pss.2006.02.005"
+      },
+      {
+        "key": "e_1_3_3_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/icar.1995.1049"
+      },
+      {
+        "key": "e_1_3_3_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0016-7037(94)90185-6"
+      },
+      {
+        "key": "e_1_3_3_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.279.5349.362"
+      },
+      {
+        "key": "e_1_3_3_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.1999.0361"
+      },
+      {
+        "key": "e_1_3_3_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AERO.2013.6497395"
+      },
+      {
+        "key": "e_1_3_3_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0016-7037(96)00400-0"
+      },
+      {
+        "key": "e_1_3_3_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2016.1616"
+      },
+      {
+        "key": "e_1_3_3_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2010.0524"
+      },
+      {
+        "key": "e_1_3_3_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2016.1611"
+      },
+      {
+        "key": "e_1_3_3_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.040539497"
+      },
+      {
+        "key": "e_1_3_3_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JS082i028p04641"
+      },
+      {
+        "key": "e_1_3_3_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2011.0130"
+      },
+      {
+        "key": "e_1_3_3_21_1",
+        "volume-title": "Strategies of Life Detection, Space Science Series of ISSI",
+        "author": "Botta O.",
+        "year": "2008",
+        "unstructured": "Botta O., , Bada J.L., , Gomez-Elvira J., , Javaux E., , Selsis F., , and Summons R. (2008) Strategies of Life Detection, Space Science Series of ISSI, Vol. 25, Springer, New York."
+      },
+      {
+        "key": "e_1_3_3_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1617103113"
+      },
+      {
+        "key": "e_1_3_3_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2015.1293"
+      },
+      {
+        "key": "e_1_3_3_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/416076a"
+      },
+      {
+        "key": "e_1_3_3_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1405338111"
+      },
+      {
+        "key": "e_1_3_3_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0904350106"
+      },
+      {
+        "key": "e_1_3_3_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0605863103"
+      },
+      {
+        "key": "e_1_3_3_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gca.2011.03.014"
+      },
+      {
+        "key": "e_1_3_3_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.285.5430.1033"
+      },
+      {
+        "key": "e_1_3_3_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0016-7037(03)00208-4"
+      },
+      {
+        "key": "e_1_3_3_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0016-7037(03)00209-6"
+      },
+      {
+        "key": "e_1_3_3_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es040301z"
+      },
+      {
+        "key": "e_1_3_3_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S1473550404001879"
+      },
+      {
+        "key": "e_1_3_3_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2013.1007"
+      },
+      {
+        "key": "e_1_3_3_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cr200221x"
+      },
+      {
+        "key": "e_1_3_3_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/GSATG62A.1"
+      },
+      {
+        "key": "e_1_3_3_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/153110703769016442"
+      },
+      {
+        "key": "e_1_3_3_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2011.0657"
+      },
+      {
+        "key": "e_1_3_3_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sedgeo.2011.09.007"
+      },
+      {
+        "key": "e_1_3_3_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1641/0006-3568(2000)050[0245:TMOL]2.3.CO;2"
+      },
+      {
+        "key": "e_1_3_3_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1462-2920.2001.00226.x"
+      },
+      {
+        "key": "e_1_3_3_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.2006.51.6.2485"
+      },
+      {
+        "key": "e_1_3_3_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1013958519734"
+      },
+      {
+        "key": "e_1_3_3_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11084-008-9154-1"
+      },
+      {
+        "key": "e_1_3_3_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2138/gsrmg.43.1.83"
+      },
+      {
+        "key": "e_1_3_3_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/153110701750137396"
+      },
+      {
+        "key": "e_1_3_3_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.203.4385.1073"
+      },
+      {
+        "key": "e_1_3_3_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.275.5302.951"
+      },
+      {
+        "key": "e_1_3_3_49_1",
+        "volume-title": "On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Species in the Struggle for Life,",
+        "author": "Darwin C.",
+        "year": "1859",
+        "unstructured": "Darwin C. (1859) On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Species in the Struggle for Life, Ed. John Murray, London."
+      },
+      {
+        "key": "e_1_3_3_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/G25683A.1"
+      },
+      {
+        "key": "e_1_3_3_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.endeavour.2006.02.005"
+      },
+      {
+        "key": "e_1_3_3_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature21377"
+      },
+      {
+        "key": "e_1_3_3_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2015.1460"
+      },
+      {
+        "key": "e_1_3_3_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11214-007-9252-9"
+      },
+      {
+        "key": "e_1_3_3_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg1088"
+      },
+      {
+        "key": "e_1_3_3_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1945-5100.2009.tb01224.x"
+      },
+      {
+        "key": "e_1_3_3_57_1",
+        "unstructured": "Ezell E.C. and Ezell L.N. (1984) On Mars. Exploration of the Red Planet 1958–1978 NASA SP-4212 NASA Washington DC. Available online at https://history.nasa.gov/SP-4212/on-mars.html"
+      },
+      {
+        "key": "e_1_3_3_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/1998JE000540"
+      },
+      {
+        "key": "e_1_3_3_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1101732"
+      },
+      {
+        "key": "e_1_3_3_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014JE004737"
+      },
+      {
+        "key": "e_1_3_3_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1419563112"
+      },
+      {
+        "key": "e_1_3_3_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1945-5100.2002.tb00847.x"
+      },
+      {
+        "key": "e_1_3_3_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11084-010-9214-1"
+      },
+      {
+        "key": "e_1_3_3_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/153110702762027925"
+      },
+      {
+        "key": "e_1_3_3_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2013.1134"
+      },
+      {
+        "key": "e_1_3_3_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0811618106"
+      },
+      {
+        "key": "e_1_3_3_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.96.16.8835"
+      },
+      {
+        "key": "e_1_3_3_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jgre.20144"
+      },
+      {
+        "key": "e_1_3_3_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2016.1551"
+      },
+      {
+        "key": "e_1_3_3_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S1473550416000227"
+      },
+      {
+        "key": "e_1_3_3_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/153110703322610672"
+      },
+      {
+        "key": "e_1_3_3_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0003-2670(99)00409-2"
+      },
+      {
+        "key": "e_1_3_3_73_1",
+        "unstructured": "Hand K.P. Murray A.E. Garvin J.B. Brinckerhoff W.B. Christner B.C. Edgett K.S. Ehlmann B.L. German C.R. Hayes A.G. Hoehler T.M. Horst S.M. Lunine J.I. Nealson K.H. Paranicas C. Schmidt B.E. Smith D.E. Rhoden A.R. Russell M.J. Templeton A.S. Willis P.A. Yingst R.A. Phillips C.B. Cable M.L. Craft K.L. Hofmann A.E. Nordheim T.A. Pappalardo R.P. and the Project Engineering Team. (2017) Europa Lander Study 2016 Report: Europa Lander Mission JPL D-97667 NASA Washington DC. Available online at https://solarsystem.nasa.gov/docs/Europa_Lander_SDT_Report_2016.pdf"
+      },
+      {
+        "key": "e_1_3_3_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0004-637X/812/2/137"
+      },
+      {
+        "key": "e_1_3_3_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/382049a0"
+      },
+      {
+        "key": "e_1_3_3_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1172466"
+      },
+      {
+        "key": "e_1_3_3_77_1",
+        "first-page": "1965",
+        "volume-title": "Astrobiology Science Conference 2017",
+        "author": "Hoehler T.J.",
+        "year": "2017",
+        "unstructured": "Hoehler T.J. (2017) Biosignatures in the context of low energy flux [abstract 3556]. In Astrobiology Science Conference 2017, Lunar and Planetary Institute, Houston, LPI Contribution 1965."
+      },
+      {
+        "key": "e_1_3_3_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cr400641x"
+      },
+      {
+        "key": "e_1_3_3_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2015.1441"
+      },
+      {
+        "key": "e_1_3_3_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ar50097a001"
+      },
+      {
+        "key": "e_1_3_3_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0019-1035(72)90142-X"
+      },
+      {
+        "key": "e_1_3_3_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JS082i028p04659"
+      },
+      {
+        "key": "e_1_3_3_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/0091-7613(2000)28<707:CICOIP>2.0.CO;2"
+      },
+      {
+        "key": "e_1_3_3_84_1",
+        "unstructured": "H. Rept. 114-130. (2015 May 27) Commerce Justice Science and Related Agencies Appropriations Bill . 2016. 114th Congress House of Representatives Washington DC. Available online at https://www.congress.gov/congressional-report/114th-congress/house-report/130/1"
+      },
+      {
+        "key": "e_1_3_3_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmicrobiol.2016.48"
+      },
+      {
+        "key": "e_1_3_3_86_1",
+        "first-page": "xi",
+        "volume-title": "Origins of Life: The Central Concepts",
+        "author": "Joyce G.",
+        "year": "1994",
+        "unstructured": "Joyce G. (1994) Foreword. In Origins of Life: The Central Concepts, edited by Deamer D.W., and Fleischaker G.R., Jones &. Bartlett, Boston, pp xi–xii."
+      },
+      {
+        "key": "e_1_3_3_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0016-7037(00)00458-0"
+      },
+      {
+        "key": "e_1_3_3_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/381684a0"
+      },
+      {
+        "key": "e_1_3_3_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.286.5447.2144"
+      },
+      {
+        "key": "e_1_3_3_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1042/bj3180021"
+      },
+      {
+        "key": "e_1_3_3_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2006.0108"
+      },
+      {
+        "key": "e_1_3_3_92_1",
+        "volume-title": "45th International Conference on Environmental Systems",
+        "author": "Kidd R.D.",
+        "year": "2015",
+        "unstructured": "Kidd R.D., , Noell A., , Kazarians G., , Aubrey A.D., , Scianmarello N., , and Tai Y.C. (2015) Ion chromatography-on-a-chip for water quality analysis [ICES-2015-141]. In 45th International Conference on Environmental Systems, Bellevue, WA."
+      },
+      {
+        "key": "e_1_3_3_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0019-1035(78)90053-2"
+      },
+      {
+        "key": "e_1_3_3_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.194.4260.99"
+      },
+      {
+        "key": "e_1_3_3_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature04780"
+      },
+      {
+        "key": "e_1_3_3_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2014.03.036"
+      },
+      {
+        "key": "e_1_3_3_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1134/S003809461507014X"
+      },
+      {
+        "key": "e_1_3_3_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2013.11.012"
+      },
+      {
+        "key": "e_1_3_3_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2004.07.004"
+      },
+      {
+        "key": "e_1_3_3_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aao5747"
+      },
+      {
+        "key": "e_1_3_3_101_1",
+        "first-page": "1552",
+        "volume-title": "Science",
+        "volume": "325",
+        "author": "Lam H.",
+        "year": "2009",
+        "unstructured": "Lam H., , Oh D.-C., , Cava F., , Takacs C.N., , Clardy J., , de Pedro M.A., , and Waldor M.K. (2009) D-amino acids govern stationary phase cell wall remodeling in bacteria. Science, 325:1552–1555."
+      },
+      {
+        "key": "e_1_3_3_102_1",
+        "volume-title": "49th Lunar and Planetary Science Conference",
+        "author": "Lauretta D.S.",
+        "year": "2018",
+        "unstructured": "Lauretta D.S., , Balram-Knutson S.S., , Bennett C.A., , Bos B.J., , Drouet d'Aubigny C., , Christensen P.R., , Church E.C.A., , DellaGiustina D.N., , Enos H.L., , Golish D.R., , Hamilton V.E., , Hergenrother C.W., , Howell E.S., , Kidd J.N., , Nolan M.C., , Reuter D.C., , Rizk B., , Simon A.A., and the OSIRIS-REx Team (2018) OSIRIS-REx encounters Earth: Signatures of a habitable world [abstract 1240]. In 49th Lunar and Planetary Science Conference, Lunar and Planetary Institute, Houston."
+      },
+      {
+        "key": "e_1_3_3_103_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.132.3424.393"
+      },
+      {
+        "key": "e_1_3_3_104_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/G20890.1"
+      },
+      {
+        "key": "e_1_3_3_105_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2014.1406"
+      },
+      {
+        "key": "e_1_3_3_106_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JS082i028p04663"
+      },
+      {
+        "key": "e_1_3_3_107_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2015.1464"
+      },
+      {
+        "key": "e_1_3_3_108_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.mi.23.100169.002503"
+      },
+      {
+        "key": "e_1_3_3_109_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/207568a0"
+      },
+      {
+        "key": "e_1_3_3_110_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1059567"
+      },
+      {
+        "key": "e_1_3_3_111_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1006517315105"
+      },
+      {
+        "key": "e_1_3_3_112_1",
+        "article-title": "Enceladus Life Finder: the search for life in a habitable moon [EGU2015-14923]",
+        "volume": "17",
+        "author": "Lunine J.I.",
+        "year": "2015",
+        "unstructured": "Lunine J.I., , Waite J.H., , Postberg F., , Spilker L., , and Clark K. (2015) Enceladus Life Finder: the search for life in a habitable moon [EGU2015-14923]. In Geophysical Research Abstracts, Vol. 17, EGU General Assembly. Available online at http://meetingorganizer.copernicus.org/EGU2015/EGU2015-14923.pdf",
+        "journal-title": "Geophysical Research Abstracts"
+      },
+      {
+        "key": "e_1_3_3_113_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.2016.0342"
+      },
+      {
+        "key": "e_1_3_3_114_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-earth-042711-105401"
+      },
+      {
+        "key": "e_1_3_3_115_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cbdv.200900245"
+      },
+      {
+        "key": "e_1_3_3_116_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2008.03.026"
+      },
+      {
+        "key": "e_1_3_3_117_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/elsc.201370064"
+      },
+      {
+        "key": "e_1_3_3_118_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2016.1481"
+      },
+      {
+        "key": "e_1_3_3_119_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1611843113"
+      },
+      {
+        "key": "e_1_3_3_120_1",
+        "volume-title": "Planetary Science Vision 2050 Workshop",
+        "author": "McCubbin F.M.",
+        "year": "2017",
+        "unstructured": "McCubbin F.M., , Allton J.H., , Barnes J.J., , Boyce J.W., , Burton A.S., , Draper D.S., , Evans C.A., , Fries M.D., , Jones J.H., , Keller L.P., , Lawrence S.J., , Messenger S.R., , Ming D.W., , Morris R.V., , Nakamura-Messenger K., , Niles P.B., , Righter K., , Simon J.I., , Snead C.J., , Steele A., , Treiman A.H., , Vander Kaaden K.E., , Zeigler R.A., , Zolensky M., , and Stansbery E.K. (2017) Priority science targets for future sample return missions within the Solar System out to the year 2050 [abstract 8224]. In Planetary Science Vision 2050 Workshop, Lunar and Planetary Institute, Houston, LPI Contribution. 1989."
+      },
+      {
+        "key": "e_1_3_3_121_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2006.6.17"
+      },
+      {
+        "key": "e_1_3_3_122_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.0020302"
+      },
+      {
+        "key": "e_1_3_3_123_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0032-0633(98)00011-7"
+      },
+      {
+        "key": "e_1_3_3_124_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2014.1158"
+      },
+      {
+        "key": "e_1_3_3_125_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.273.5277.924"
+      },
+      {
+        "key": "e_1_3_3_126_1",
+        "first-page": "441",
+        "volume-title": "Exoplanets",
+        "author": "Meadows V.",
+        "year": "2010",
+        "unstructured": "Meadows V., and Seager S. (2010) Terrestrial planet atmospheres and biosignatures. In Exoplanets, edited by Seager S., University of Arizona Press, Tucson, pp 441–470."
+      },
+      {
+        "key": "e_1_3_3_127_1",
+        "volume-title": "American Astronomical Society, DPS meeting #48",
+        "author": "Meadows V.",
+        "year": "2016",
+        "unstructured": "Meadows V., , Schwieterman E., , Arney G., , Lustig-Yaeger J., , Lincowski A., , Robinson T.D., , and Deming D. (2016) What we could learn from observations of terrestrial exoplanets [id.122.12]. In American Astronomical Society, DPS meeting #48, American Astronomical Society, Washington, DC."
+      },
+      {
+        "key": "e_1_3_3_128_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0403043101"
+      },
+      {
+        "key": "e_1_3_3_129_1",
+        "volume-title": "When Biospheres Collide. A History of NASA's Planetary Protection Programs",
+        "author": "Meltzer M.",
+        "year": "2011",
+        "unstructured": "Meltzer M. (2011) When Biospheres Collide. A History of NASA's Planetary Protection Programs, NASA SP-2011-4234, NASA, Washington, DC."
+      },
+      {
+        "key": "e_1_3_3_130_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2008.0759"
+      },
+      {
+        "key": "e_1_3_3_131_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1238670"
+      },
+      {
+        "key": "e_1_3_3_132_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1167350"
+      },
+      {
+        "key": "e_1_3_3_133_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2009.0438"
+      },
+      {
+        "key": "e_1_3_3_134_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/384055a0"
+      },
+      {
+        "key": "e_1_3_3_135_1",
+        "first-page": "1965",
+        "volume-title": "Astrobiology Science Conference 2017",
+        "author": "Monroe A.A.",
+        "year": "2017",
+        "unstructured": "Monroe A.A., , Glein C.R., , Anbar A.D., , Shock E.L., , and Lunine J.I. (2017) Amino acid destruction considerations for in situ measurements of Enceladus and other ocean worlds [abstract 3319]. In Astrobiology Science Conference 2017, Lunar and Planetary Institute, Houston, LPI Contribution 1965."
+      },
+      {
+        "key": "e_1_3_3_136_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1165243"
+      },
+      {
+        "key": "e_1_3_3_137_1",
+        "unstructured": "Mustard J.F. Adler M. Allwood A. Bass D.S. Beaty D.W. Bell J.F. Brinckerhoff W.B. Carr M. Des Marais D.J. Drake B. Edgett K.S. Eigenbrode J. Elkins-Tanton L.T. Grant J.A. Milkovich S.M. Ming D. Moore C. Murchie S. Onstott T.C. Ruff S.W. Sephton M.A. Steele A. and Treiman A. (2013) Report of the Mars 2020 Science Definition Team posted July 2013 by the Mars Exploration Program Analysis Group. Available online at http://mepag.jpl.nasa.gov/reports/MEP/Mars_2020_SDT_Report_Final.pdf"
+      },
+      {
+        "key": "e_1_3_3_138_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.56.2.389"
+      },
+      {
+        "key": "e_1_3_3_139_1",
+        "volume-title": "The Limits of Organic Life in Planetary Systems",
+        "author": "National Research Council",
+        "year": "2007",
+        "unstructured": "National Research Council. (2007) The Limits of Organic Life in Planetary Systems, National Academies Press, Washington, DC."
+      },
+      {
+        "key": "e_1_3_3_140_1",
+        "volume-title": "New Worlds, New Horizons in Astronomy and Astrophysics",
+        "author": "National Research Council",
+        "year": "2010",
+        "unstructured": "National Research Council. (2010) New Worlds, New Horizons in Astronomy and Astrophysics, National Academies Press, Washington, DC."
+      },
+      {
+        "key": "e_1_3_3_141_1",
+        "volume-title": "Vision and Voyages for Planetary Science in the Decade 2013–2022",
+        "author": "National Research Council",
+        "year": "2011",
+        "unstructured": "National Research Council. (2011) Vision and Voyages for Planetary Science in the Decade 2013–2022, National Academies Press, Washington, DC."
+      },
+      {
+        "key": "e_1_3_3_142_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011JE003880"
+      },
+      {
+        "key": "e_1_3_3_143_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1369-5274(02)00326-0"
+      },
+      {
+        "key": "e_1_3_3_144_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gbi.12153"
+      },
+      {
+        "key": "e_1_3_3_145_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/2281100a0"
+      },
+      {
+        "key": "e_1_3_3_146_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2014.1218"
+      },
+      {
+        "key": "e_1_3_3_147_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-017-04161-2"
+      },
+      {
+        "key": "e_1_3_3_148_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/challe5020260"
+      },
+      {
+        "key": "e_1_3_3_149_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2017.1657"
+      },
+      {
+        "key": "e_1_3_3_150_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-009-9115-6_17"
+      },
+      {
+        "key": "e_1_3_3_151_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0019-1035(72)90144-3"
+      },
+      {
+        "key": "e_1_3_3_152_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JS082i028p04669"
+      },
+      {
+        "key": "e_1_3_3_153_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00926949"
+      },
+      {
+        "key": "e_1_3_3_154_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jnci/93.14.1054"
+      },
+      {
+        "key": "e_1_3_3_155_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/20859"
+      },
+      {
+        "key": "e_1_3_3_156_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/life6020018"
+      },
+      {
+        "key": "e_1_3_3_157_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/cshperspect.a002105"
+      },
+      {
+        "key": "e_1_3_3_158_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aah6765"
+      },
+      {
+        "key": "e_1_3_3_159_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.286.5447.2141"
+      },
+      {
+        "key": "e_1_3_3_160_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1759-2208-2-1"
+      },
+      {
+        "key": "e_1_3_3_161_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2013.0999"
+      },
+      {
+        "key": "e_1_3_3_162_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja954077c"
+      },
+      {
+        "key": "e_1_3_3_163_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature07381"
+      },
+      {
+        "key": "e_1_3_3_164_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AERO.2016.7500813"
+      },
+      {
+        "key": "e_1_3_3_165_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0092-8674(00)80144-0"
+      },
+      {
+        "key": "e_1_3_3_166_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2016.1598"
+      },
+      {
+        "key": "e_1_3_3_167_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja001092v"
+      },
+      {
+        "key": "e_1_3_3_168_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/365715a0"
+      },
+      {
+        "key": "e_1_3_3_169_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2009.0371"
+      },
+      {
+        "key": "e_1_3_3_170_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.260.5108.640"
+      },
+      {
+        "key": "e_1_3_3_171_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gr.2012.07.003"
+      },
+      {
+        "key": "e_1_3_3_172_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/416073a"
+      },
+      {
+        "key": "e_1_3_3_173_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/AEM.69.6.3580-3592.2003"
+      },
+      {
+        "key": "e_1_3_3_174_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.1500047"
+      },
+      {
+        "key": "e_1_3_3_175_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2005.5.372"
+      },
+      {
+        "key": "e_1_3_3_176_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2010.0489"
+      },
+      {
+        "key": "e_1_3_3_177_1",
+        "volume-title": "Principles of Stable Isotope Geochemistry",
+        "author": "Sharp Z.",
+        "year": "2007",
+        "unstructured": "Sharp Z. (2007) Principles of Stable Isotope Geochemistry, Pearson, Upper Saddle River, NJ."
+      },
+      {
+        "key": "e_1_3_3_178_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.1166"
+      },
+      {
+        "key": "e_1_3_3_179_1",
+        "unstructured": "Spencer J.R. and Niebur C. (2010) Planetary Science Decadal Survey Titan Saturn System Mission Concept Study Final Report. Available online at https://sites.nationalacademies.org/cs/groups/ssbsite/documents/webpage/ssb_059317.pdf"
+      },
+      {
+        "key": "e_1_3_3_180_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2818.1998.00334.x"
+      },
+      {
+        "key": "e_1_3_3_181_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1945-5100.2007.tb00590.x"
+      },
+      {
+        "key": "e_1_3_3_182_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1220715"
+      },
+      {
+        "key": "e_1_3_3_183_1",
+        "volume-title": "44th Lunar and Planetary Science Conference",
+        "author": "Steele A.",
+        "year": "2013",
+        "unstructured": "Steele A., , McCubbin F.M., , Benning L., , Siljestrom S.S., , Cody G.D., , Goreva Y., , Hauri E.H., , Wang J., , Kilcoyne A.L.D., , Grady M.M., , Smith C., , Freissinet C., , Glavin D.P., , Burton A.S., , Fries M.D.F., , Blanco J.D.R., , Glamoclija M., , Rogers K.L., , Mikhail S., , and Dworkin J.P. (2013) Organic carbon inventory of the Tissint meteorite [abstract 2854]. In 44th Lunar and Planetary Science Conference, Lunar and Planetary Institute, Houston."
+      },
+      {
+        "key": "e_1_3_3_184_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GL072199"
+      },
+      {
+        "key": "e_1_3_3_185_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JB.00345-12"
+      },
+      {
+        "key": "e_1_3_3_186_1",
+        "unstructured": "Storrie-Lombardi M. and Nealson K. (2003) Multivariate analysis of elemental chemistry as a robust biosignature [abstract #13600]. In EGS-AGU-EUG Joint Assembly."
+      },
+      {
+        "key": "e_1_3_3_187_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/23005"
+      },
+      {
+        "key": "e_1_3_3_188_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11214-007-9256-5"
+      },
+      {
+        "key": "e_1_3_3_189_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2010.0506"
+      },
+      {
+        "key": "e_1_3_3_190_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2014.1244"
+      },
+      {
+        "key": "e_1_3_3_191_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/35053176"
+      },
+      {
+        "key": "e_1_3_3_192_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2010.0498"
+      },
+      {
+        "key": "e_1_3_3_193_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/icar.2002.6915"
+      },
+      {
+        "key": "e_1_3_3_194_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2016.1533"
+      },
+      {
+        "key": "e_1_3_3_195_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/xrs.2681"
+      },
+      {
+        "key": "e_1_3_3_196_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pss.2015.10.003"
+      },
+      {
+        "key": "e_1_3_3_197_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature00934"
+      },
+      {
+        "key": "e_1_3_3_198_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1574-6968.2010.02000.x"
+      },
+      {
+        "key": "e_1_3_3_199_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11214-004-1408-2"
+      },
+      {
+        "key": "e_1_3_3_200_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature08153"
+      },
+      {
+        "key": "e_1_3_3_201_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aai8703"
+      },
+      {
+        "key": "e_1_3_3_202_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1237961"
+      },
+      {
+        "key": "e_1_3_3_203_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1261713"
+      },
+      {
+        "key": "e_1_3_3_204_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4020-9212-1_36"
+      },
+      {
+        "key": "e_1_3_3_205_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2011.08.029"
+      },
+      {
+        "key": "e_1_3_3_206_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2015.1374"
+      },
+      {
+        "key": "e_1_3_3_207_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.87.12.4576"
+      },
+      {
+        "key": "e_1_3_3_208_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1197258"
+      },
+      {
+        "key": "e_1_3_3_209_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gca.2016.12.041"
+      },
+      {
+        "key": "e_1_3_3_210_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aaa3687"
+      },
+      {
+        "key": "e_1_3_3_211_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2010.11.027"
+      },
+      {
+        "key": "e_1_3_3_212_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/icar.1994.1047"
+      },
+      {
+        "key": "e_1_3_3_213_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0092101"
+      },
+      {
+        "key": "e_1_3_3_214_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/anie.201106502"
+      }
+    ],
+    "container-title": [
+      "Astrobiology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1089/ast.2017.1773",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1089/ast.2017.1773",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1089/ast.2017.1773",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2026-04-28T12:02:27Z",
+      "timestamp": 1777377747000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1089/ast.2017.1773"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11
+        ]
+      ]
+    },
+    "references-count": 213,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1089/ast.2017.1773"
+    ],
+    "URL": "https://doi.org/10.1089/ast.2017.1773",
+    "relation": {},
+    "ISSN": [
+      "1531-1074",
+      "1557-8070"
+    ],
+    "issn-type": [
+      {
+        "value": "1531-1074",
+        "type": "print"
+      },
+      {
+        "value": "1557-8070",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          11
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1156 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2026-11-13T02:22:43Z",
+      "timestamp": 1794536563092,
+      "version": "4.9.1"
+    },
+    "reference-count": 89,
+    "publisher": "SAGE Publications",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2019-01-01T00:00:00Z",
+          "timestamp": 1546300800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2019-01-01T00:00:00Z",
+          "timestamp": 1546300800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Astrobiology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1089/ast.2018.1955",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2018-10-22T10:04:25Z",
+      "timestamp": 1540202665000
+    },
+    "page": "1-27",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 293,
+    "title": [
+      "The NASA Roadmap to Ocean Worlds"
+    ],
+    "prefix": "10.1177",
+    "volume": "19",
+    "author": [
+      {
+        "given": "Amanda R.",
+        "family": "Hendrix",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Planetary Science Institute"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Terry A.",
+        "family": "Hurford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Goddard Space Flight Center"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laura M.",
+        "family": "Barge",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael T.",
+        "family": "Bland",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Astrogeology Science Center"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeff S.",
+        "family": "Bowman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Scripps Institution of Oceanography"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William",
+        "family": "Brinckerhoff",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Goddard Space Flight Center"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bonnie J.",
+        "family": "Buratti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Morgan L.",
+        "family": "Cable",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julie",
+        "family": "Castillo-Rogez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Geoffrey C.",
+        "family": "Collins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wheaton College"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Serina",
+        "family": "Diniega",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher R.",
+        "family": "German",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Woods Hole Oceanographic Institution"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexander G.",
+        "family": "Hayes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tori",
+        "family": "Hoehler",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Ames Research Center"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sona",
+        "family": "Hosseini",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carly J.A.",
+        "family": "Howett",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Southwest Research Institute"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alfred S.",
+        "family": "McEwen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Arizona"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Catherine D.",
+        "family": "Neish",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Planetary Science Institute"
+          },
+          {
+            "name": "The University of Western Ontario",
+            "place": [
+              "Canada"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marc",
+        "family": "Neveu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA HQ/Universities Space Association"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tom A.",
+        "family": "Nordheim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G. Wesley",
+        "family": "Patterson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Johns Hopkins University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. Alex",
+        "family": "Patthoff",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Planetary Science Institute"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cynthia",
+        "family": "Phillips",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alyssa",
+        "family": "Rhoden",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Southwest Research Institute"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Britney E.",
+        "family": "Schmidt",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Earth & Atmospheric Sciences",
+            "place": [
+              "Georgia"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kelsi N.",
+        "family": "Singer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Southwest Research Institute"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jason M.",
+        "family": "Soderblom",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Steven D.",
+        "family": "Vance",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_3_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dsr2.2015.05.001"
+      },
+      {
+        "key": "e_1_3_3_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0012-821X(76)90177-1"
+      },
+      {
+        "key": "e_1_3_3_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature07100"
+      },
+      {
+        "key": "e_1_3_3_5_1",
+        "first-page": "283",
+        "article-title": "Europa's surface composition",
+        "author": "Carlson R.W.",
+        "year": "2009",
+        "unstructured": "Carlson R.W., , Calvin W.M., , Dalton J.B., , Hansen G.B., , Hudson R.L., , Johnson R.E., , McCord T.B., , and Moore M.H. (2009) Europa's surface composition. In Europa, edited by Pappalrdo R.T., , McKinnon W.B., , and Khurana K., University of Arizona Press, Tucson, pp 283–328.",
+        "journal-title": "Europa,"
+      },
+      {
+        "key": "e_1_3_3_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.98.3.801"
+      },
+      {
+        "key": "e_1_3_3_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0019-1035(78)90168-9"
+      },
+      {
+        "key": "e_1_3_3_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/icar.2000.6498"
+      },
+      {
+        "key": "e_1_3_3_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pss.2009.08.002"
+      },
+      {
+        "key": "e_1_3_3_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature18290"
+      },
+      {
+        "key": "e_1_3_3_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/asna.200710798"
+      },
+      {
+        "key": "e_1_3_3_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/153110703322736132"
+      },
+      {
+        "key": "e_1_3_3_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0004-637X/708/2/1326"
+      },
+      {
+        "key": "e_1_3_3_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/35015170"
+      },
+      {
+        "key": "e_1_3_3_15_1",
+        "article-title": "Time series studies of hydrothermal venting at Loihi Seamount following the 2018 Kilauea eruption [abstract]",
+        "author": "German C.R.",
+        "year": "2018",
+        "unstructured": "German C.R., , Shock E.L., , Huber J.A., , Kobs Nawotniak S.N., , Raineault N., , Lim D.; the NA100 Expedition and SUBSEA Scientific Research Teams. (2018) Time series studies of hydrothermal venting at Loihi Seamount following the 2018 Kilauea eruption [abstract]. In EOS Transactions American Geophysical Union, American Geophysical Union.",
+        "journal-title": "EOS Transactions American Geophysical Union"
+      },
+      {
+        "key": "e_1_3_3_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gca.2015.04.017"
+      },
+      {
+        "key": "e_1_3_3_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2012.08.027"
+      },
+      {
+        "key": "e_1_3_3_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2009.0386"
+      },
+      {
+        "key": "e_1_3_3_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2007.0156"
+      },
+      {
+        "key": "e_1_3_3_20_1",
+        "first-page": "589",
+        "article-title": "Astrobiology and the potential for life on Europa",
+        "author": "Hand K.",
+        "year": "2009",
+        "unstructured": "Hand K., , Chyba C.F., , Priscu J.C., , Carlson R.W., , and Nealson K.H. (2009) Astrobiology and the potential for life on Europa. In Europa, edited by Pappalardo R.T., , McKinnon W.B., , and Khurana K.K., University of Arizona Press, Tucson, pp 589–630.",
+        "journal-title": "Europa,"
+      },
+      {
+        "key": "e_1_3_3_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015GL063559"
+      },
+      {
+        "key": "e_1_3_3_22_1",
+        "first-page": "1964",
+        "article-title": "Science goals, objectives, and investigations of the 2016 Europa Lander Science Definition Team Report [abstract 2492]",
+        "author": "Hand K.P.",
+        "year": "2017",
+        "unstructured": "Hand K.P., , Murray A.E., , Garvin J., , Horst S., , Brinkerhoff W., , Edgett K., , Hoehler T., , Russell M., , Rhoden A., , Yingst R.A., , German C., , Schmidt B., , Paranicas C., , Smith D., , Willis P., , Hayes A., , Ehlmann B., , Lunine J., , Templeton A., , Nealson K., , Christner B., , Cable M., , Craft K., , Pappalardo R., , and Phillips C. (2017) Science goals, objectives, and investigations of the 2016 Europa Lander Science Definition Team Report [abstract 2492]. In 48th Lunar and Planetary Science Conference, Lunar and Planetary Institute, Houston, LPI Contribution No. 1964.",
+        "journal-title": "48th Lunar and Planetary Science Conference"
+      },
+      {
+        "key": "e_1_3_3_23_1",
+        "unstructured": "Hansen C.J. Hammel H.B. and Spilker L.J. (2009) Argo: Exploring the Neptune System and Beyond European Planetary Science Congress 2009 14–18 September in Potsdam Germany p.796. Available online at http://meetings.copernicus.org/epsc2009"
+      },
+      {
+        "key": "e_1_3_3_24_1",
+        "first-page": "1314",
+        "article-title": "Diones' internal structre inferred from Cassini gravity and topography",
+        "volume": "47",
+        "author": "Hemingway D.J.",
+        "year": "2016",
+        "unstructured": "Hemingway D.J., , Zannoni M., , Tortora P, , Nimmo F., , and Asmar S.W. (2016) Diones' internal structre inferred from Cassini gravity and topography. Lunar Planet Sci Conf, 47:1314.",
+        "journal-title": "Lunar Planet Sci Conf"
+      },
+      {
+        "key": "e_1_3_3_25_1",
+        "first-page": "27",
+        "article-title": "A vision for ice giant exploration",
+        "author": "Hofstadter M.",
+        "year": "2017",
+        "unstructured": "Hofstadter M., , Simon A., , Atreya S., , Banfield D., , Fortney J., , Hayes A., , Hedman M., , Hospodarsky G., , Mandt K., , Masters A., , Showalter M., , Soderlund K., , Turrini D., , Turtle E.P., , Elliott J., , and Reh K. (2017) A vision for ice giant exploration. Planetary Science Vision 2050, Workshop, 27–28February and 1 March, 2017 in Washington, DC. LPI Contribution No. 1989, id.8115.",
+        "journal-title": "Planetary Science Vision 2050"
+      },
+      {
+        "key": "e_1_3_3_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010JE003718"
+      },
+      {
+        "key": "e_1_3_3_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14262"
+      },
+      {
+        "key": "e_1_3_3_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1315215111"
+      },
+      {
+        "key": "e_1_3_3_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2004.05.020"
+      },
+      {
+        "key": "e_1_3_3_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2006.06.005"
+      },
+      {
+        "key": "e_1_3_3_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1250551"
+      },
+      {
+        "key": "e_1_3_3_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo2245"
+      },
+      {
+        "key": "e_1_3_3_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/35084000"
+      },
+      {
+        "key": "e_1_3_3_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/1998JA900095"
+      },
+      {
+        "key": "e_1_3_3_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.289.5483.1340"
+      },
+      {
+        "key": "e_1_3_3_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/icar.2002.6834"
+      },
+      {
+        "key": "e_1_3_3_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2004.01.001"
+      },
+      {
+        "key": "e_1_3_3_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0019-1035(71)90072-8"
+      },
+      {
+        "key": "e_1_3_3_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1151639"
+      },
+      {
+        "key": "e_1_3_3_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1506295112"
+      },
+      {
+        "key": "e_1_3_3_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/1999GL900125"
+      },
+      {
+        "key": "e_1_3_3_42_1",
+        "article-title": "Why can't Mimas be more like Enceladus? [abstract #P31B–1534]",
+        "author": "McKinnon W.B.",
+        "year": "2010",
+        "unstructured": "McKinnon W.B. (2010) Why can't Mimas be more like Enceladus? [abstract #P31B–1534]. In 2010 AGU Fall Meeting, American Geophysical Union, Washington, DC.",
+        "journal-title": "2010 AGU Fall Meeting"
+      },
+      {
+        "key": "e_1_3_3_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015GL063384"
+      },
+      {
+        "key": "e_1_3_3_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2003.11.026"
+      },
+      {
+        "key": "e_1_3_3_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2007.09.008"
+      },
+      {
+        "key": "e_1_3_3_46_1",
+        "first-page": "397",
+        "volume-title": "Jupiter",
+        "author": "Moore J.M.",
+        "year": "2004",
+        "unstructured": "Moore J.M., , Chapman C.R., , Bierhaus E.B., , Greely R., , Chuang F.C., , Klemaszewski J., , Clarck R.N., , Dalton J.B., , Hibbits C.A., , Schenk P.M., , Spencer J.R., , and Wagner R. (2004) Callisto. In Jupiter, edited by Bagenal F., , Dowling T.E., , and McKinnon W.B., Cambridge University Press, Cambridge, UK, pp 397–426."
+      },
+      {
+        "key": "e_1_3_3_47_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "National Academies of Sciences Engineering and Medicine. (2017) Report Series—Committee on Astrobiology and Planetary Science: Getting Ready for the Next Planetary Sciences Decadal Survey. The National Academies Press Washington DC. Available online at https://doi.org/10.17226/24843",
+        "DOI": "10.17226/24843"
+      },
+      {
+        "key": "e_1_3_3_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2017.1773"
+      },
+      {
+        "key": "e_1_3_3_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2014.01.044"
+      },
+      {
+        "key": "e_1_3_3_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0019-1035(89)90052-3"
+      },
+      {
+        "key": "e_1_3_3_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003GL019202"
+      },
+      {
+        "key": "e_1_3_3_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/1998JE000628"
+      },
+      {
+        "key": "e_1_3_3_53_1",
+        "first-page": "363",
+        "volume-title": "Jupiter",
+        "author": "Pappalardo R.T.",
+        "year": "2004",
+        "unstructured": "Pappalardo R.T., , Collins G.C., , Head J.W., , Helfenstein P., , McCord T.B., , Moore J.M., , Prockter L.M., , Schenk P.M., , and Spencer J.R. (2004) The geology of Ganymede. In Jupiter, edited by Bagenal F., , Dowling T.E., , and McKinnon W.B., Cambridge University Press, Cambridge, pp 363–396."
+      },
+      {
+        "key": "e_1_3_3_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015GL063950"
+      },
+      {
+        "key": "e_1_3_3_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1123013"
+      },
+      {
+        "key": "e_1_3_3_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2015.02.016"
+      },
+      {
+        "key": "e_1_3_3_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2007.11.010"
+      },
+      {
+        "key": "e_1_3_3_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1247051"
+      },
+      {
+        "key": "e_1_3_3_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aaf4286"
+      },
+      {
+        "key": "e_1_3_3_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2007.03.015"
+      },
+      {
+        "key": "e_1_3_3_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature10608"
+      },
+      {
+        "key": "e_1_3_3_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11214-010-9635-1"
+      },
+      {
+        "key": "e_1_3_3_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2000JC000532"
+      },
+      {
+        "key": "e_1_3_3_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2014.11.008"
+      },
+      {
+        "key": "e_1_3_3_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.actaastro.2016.04.013"
+      },
+      {
+        "key": "e_1_3_3_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2010.06.018"
+      },
+      {
+        "key": "e_1_3_3_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/icar.1997.5778"
+      },
+      {
+        "key": "e_1_3_3_68_1",
+        "article-title": "The influence of heterogeneous mantle heating on ocean convection at Europa [abstract #2054]",
+        "author": "Soderlund K.",
+        "year": "2014",
+        "unstructured": "Soderlund K., , Schmidt B.E., , Wicht J., , and Blankenship D.D. (2014) The influence of heterogeneous mantle heating on ocean convection at Europa [abstract #2054]. In 45th Lunar and Planetary Science Conference, Lunar and Planetary Institute, Houston.",
+        "journal-title": "45th Lunar and Planetary Science Conference"
+      },
+      {
+        "key": "e_1_3_3_69_1",
+        "first-page": "85",
+        "article-title": "Tides and tidal heating on Europa",
+        "author": "Sotin C.",
+        "year": "2009",
+        "unstructured": "Sotin C., , Tobie G., , Wahr J., , and McKinnon W.B. (2009) Tides and tidal heating on Europa. In Europa, edited by Pappalrdo R.T., , McKinnon W.B., , and Khurana K., University of Arizona Press, Tucson, pp 85–118.",
+        "journal-title": "Europa"
+      },
+      {
+        "key": "e_1_3_3_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3847/2041-8213/aa67f8"
+      },
+      {
+        "key": "e_1_3_3_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1121661"
+      },
+      {
+        "key": "e_1_3_3_72_1",
+        "first-page": "410",
+        "author": "Squyres S.W.",
+        "year": "2011",
+        "unstructured": "Squyres S.W., et al. (2011) Vision and Voyages for Planetary Science in the Decade 2013–2022. National Academies Press, Washington, D.C., p 410.",
+        "journal-title": "Vision and Voyages for Planetary Science in the Decade 2013–2022"
+      },
+      {
+        "key": "e_1_3_3_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009GL042312"
+      },
+      {
+        "key": "e_1_3_3_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature05438"
+      },
+      {
+        "key": "e_1_3_3_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1255299"
+      },
+      {
+        "key": "e_1_3_3_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/589831"
+      },
+      {
+        "key": "e_1_3_3_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2015.08.037"
+      },
+      {
+        "key": "e_1_3_3_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.icarus.2005.04.006"
+      },
+      {
+        "key": "e_1_3_3_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0967-0637(93)90042-2"
+      },
+      {
+        "key": "e_1_3_3_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008GL036186"
+      },
+      {
+        "key": "e_1_3_3_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature07571"
+      },
+      {
+        "key": "e_1_3_3_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/ast.2007.0075"
+      },
+      {
+        "key": "e_1_3_3_83_1",
+        "first-page": "459",
+        "article-title": "Oceanography of an ice-covered Moon",
+        "author": "Vance S.",
+        "year": "2009",
+        "unstructured": "Vance S., and Goodman J. (2009) Oceanography of an ice-covered Moon. In Europa, edited by Pappalardo R.T., , McKinnon W.B., , and Khurana K.K., University of Arizona Press, Tucson, p 459.",
+        "journal-title": "Europa"
+      },
+      {
+        "key": "e_1_3_3_84_1",
+        "article-title": "Interior structure and habitability of super-Europas and super-Ganymedes [abstract #2717]",
+        "author": "Vance S.",
+        "year": "2015",
+        "unstructured": "Vance S., , Barnes R., , Brown J.M., , Bollengier O., , Sotin C., , and Choukroun M. (2015) Interior structure and habitability of super-Europas and super-Ganymedes [abstract #2717]. In 46th Lunar and Planetary Science Conference. Lunar and Planetary Institute, Houston.",
+        "journal-title": "46th Lunar and Planetary Science Conference"
+      },
+      {
+        "key": "e_1_3_3_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GL068547"
+      },
+      {
+        "key": "e_1_3_3_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aai8703"
+      },
+      {
+        "key": "e_1_3_3_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5670/oceanog.2016.95"
+      },
+      {
+        "key": "e_1_3_3_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/421360"
+      },
+      {
+        "key": "e_1_3_3_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009GL039588"
+      },
+      {
+        "key": "e_1_3_3_90_1",
+        "first-page": "431",
+        "volume-title": "Europa",
+        "author": "Zolotov M.Y.",
+        "year": "2009",
+        "unstructured": "Zolotov M.Y., and Kargel J. (2009) On the chemical composition of Europa's icy shell, ocean, and underlying rocks. In Europa, edited by Pappalardo R.T., , McKinnon W.B., , and Khurana K., University of Arizona Press, Tucson, AZ, pp 431–458."
+      }
+    ],
+    "container-title": [
+      "Astrobiology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1089/ast.2018.1955",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1089/ast.2018.1955",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1089/ast.2018.1955",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2026-04-28T12:02:45Z",
+      "timestamp": 1777377765000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1089/ast.2018.1955"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    },
+    "references-count": 89,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1089/ast.2018.1955"
+    ],
+    "URL": "https://doi.org/10.1089/ast.2018.1955",
+    "relation": {},
+    "ISSN": [
+      "1531-1074",
+      "1557-8070"
+    ],
+    "issn-type": [
+      {
+        "value": "1531-1074",
+        "type": "print"
+      },
+      {
+        "value": "1557-8070",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    }
+  }
+}

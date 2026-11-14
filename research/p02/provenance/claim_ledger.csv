@@ -1,0 +1,24 @@
+claim_id,legacy_claim,status,reason_or_replacement,canonical_destination
+C01,"Corpus contains 9513 unique ADS records and 10317 target-paper assignments",reproduced,"Verified from archived record-level CSVs; overlap retained explicitly",main
+C02,"Mars accounts for about 74 percent of raw volume",contradicted,"Observed share is 54.56 percent of target-paper assignments",supplement
+C03,"Fractional counting reduces Mars from 74 to 56 percent",contradicted,"Historical rule is one reciprocal-team-size weight per paper; Mars share rises to 55.96 percent",main
+C04,"Reciprocal weighting is standard fractional authorship counting",relabelled,"It is a descriptive team-size discount and does not allocate one full paper across authors",methods
+C05,"Enceladus has highest productivity per FTE",not_identified,"ADS has no labour-time exposure and author strings are not disambiguated people",forensic_ledger
+C06,"FTE equals unique recent author strings divided by mean publication rate",invalid_construct,"The formula does not identify full-time-equivalent labour",forensic_ledger
+C07,"Reported MNCS is field- and cohort-normalized",not_reproducible,"No field reference sets or dated citation snapshot were archived; replaced by explicitly internal year normalization",methods
+C08,"A Gamma-Poisson hierarchical model estimates target productivity",invalid_model,"Fractional response has incompatible Poisson support; exposure is unidentified; priors are independent; printed arithmetic omits the declared window",forensic_ledger
+C09,"Precision recall and Cohen kappa were audited",invalid_provenance,"Historical scripts generated labels and performance values randomly rather than loading human annotations",forensic_ledger
+C10,"Bibliometric evidence has near-zero association with 33 Decadal pairs",invalid_provenance,"Historical mapping was simulated and repeated six target scores across 33 rows causing pseudoreplication",forensic_ledger
+C11,"Budget rankings converge and diverge from evidence",out_of_scope,"Budget provenance and estimands are not supported by this ADS corpus",excluded
+C12,"Enceladus evidence momentum is approximately 0.84",not_identified,"Milestone weights and aggregation were not empirically calibrated",excluded
+C13,"Enceladus offers roughly 16000 MW biologically available power",contradicted_and_not_identified,"Declared arithmetic is inconsistent and gross chemical flux does not identify biologically accessible power",excluded
+C14,"A mission has roughly 62 percent probability of definitive detection in five years",not_identified,"No calibrated per-observation detection model and flybys are not exchangeable independent trials",excluded
+C15,"Cassini flybys calibrate JWST biosignature classification",invalid_comparison,"Observation modalities and target classes are not commensurable under the declared formula",excluded
+C16,"There is one objectively best bibliometric target",rejected_construct,"Target ordering changes across scale trajectory reception and institutional topology; report a partial order and specification dependence",main
+C17,"CNSA or Russian affiliations imply an approved national Enceladus mission",invalid_inference,"Publication affiliation is weaker evidence than agency participation mission concept approval or funding",methods
+C18,"property:article selects refereed publications",contradicted,"ADS property:article denotes regular articles; refereed status requires property:refereed",limitations
+C19,"2019-2024 is a five-year complete window",contradicted,"The inclusive labels span six years and the archived 2024 block ends in October; canonical window is 2019-2023",methods
+C20,"The public repository reproduces P02",contradicted,"The inspected branch lacks the corpus pipeline tests and release artifacts and exposed an ADS credential",data_availability
+C21,"Seven exclusions exhaust Gaia-Enceladus contamination",not_identified,"Seven false positives are verified but 251 Enceladus records lack title or keyword target evidence and recall has no independent benchmark",retrieval_audit
+C22,"Pooled corpus-year citation ratio is composition-free",contradicted,"Mars dominates the pooled reference; a leave-one-target-out corpus-year ratio is released as a sensitivity",methods
+C23,"Six Pareto-nondominated targets are exceptional",not_supported,"For six points on four independent continuous rank axes the Monte Carlo probability that all six are nondominated is approximately 0.249",results

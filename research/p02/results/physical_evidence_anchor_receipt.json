@@ -1,0 +1,36 @@
+{
+  "selection": "Purposive and retrospective; no sampling frame or aggregate recall estimate.",
+  "archive_refs": 9513,
+  "expected_complete_year": 13,
+  "n_anchors": 15,
+  "statuses": {
+    "EXPECTED_TARGET": 13,
+    "NOT_IN_ARCHIVE": 2
+  },
+  "by_target": {
+    "Enceladus": {
+      "EXPECTED_TARGET": 4,
+      "NOT_IN_ARCHIVE": 1
+    },
+    "Europa": {
+      "EXPECTED_TARGET": 1,
+      "NOT_IN_ARCHIVE": 1
+    },
+    "Ganymede": {
+      "EXPECTED_TARGET": 1
+    },
+    "Mars": {
+      "EXPECTED_TARGET": 2
+    },
+    "Titan": {
+      "EXPECTED_TARGET": 2
+    },
+    "Venus": {
+      "EXPECTED_TARGET": 3
+    }
+  },
+  "missing_anchor_ids": [
+    "E01",
+    "U02"
+  ]
+}

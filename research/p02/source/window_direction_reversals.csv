@@ -1,0 +1,9 @@
+metric,target_a,target_b,a_gt_b_windows,b_gt_a_windows
+trend_ols,Enceladus,Europa,2000_2023,2019_2023
+trend_ols,Enceladus,Ganymede,2000_2023,2019_2023
+trend_ols,Enceladus,Venus,2000_2023,2010_2023|2019_2023
+trend_ols,Europa,Mars,2010_2023,2000_2023
+trend_theilsen,Enceladus,Europa,2000_2023,2019_2023
+trend_theilsen,Enceladus,Ganymede,2000_2023,2019_2023
+trend_theilsen,Europa,Ganymede,2010_2023,2000_2023
+trend_theilsen,Europa,Mars,2010_2023,2000_2023

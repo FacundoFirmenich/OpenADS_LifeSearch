@@ -1,0 +1,14 @@
+{
+  "model_sha256": "e27f10e874967686585ba230810399bedbc15e9b9139112d94f93f1a35535000",
+  "counts": {
+    "nodes": 155,
+    "edges": 263,
+    "gates": 1,
+    "contrast_cells": 90,
+    "anchors": 15
+  },
+  "files": {
+    "epistemic_graph.html": "433c08e7cad93f69a74d1ad0df3b63b13d721d85d375098e96261d94bacd30b3",
+    "supergraph.html": "9ff5df2f9c6a3c5dab40c0eb629b36b1cff47bfaacfebcf79a8eabe456f97a8a"
+  }
+}

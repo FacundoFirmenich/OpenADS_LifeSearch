@@ -1,0 +1,5 @@
+*.pdf binary
+research/p02/**/*.csv -text whitespace=cr-at-eol
+research/p02/**/*.md whitespace=-blank-at-eol
+research/p02/**/*.sha256 whitespace=-blank-at-eof
+research/p02/**/*.json -text whitespace=cr-at-eol

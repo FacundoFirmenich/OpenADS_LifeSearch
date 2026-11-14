@@ -1,0 +1,32 @@
+{
+  "observed_trend_values_verified": 864,
+  "max_abs_error": 2.4175106361212784e-14,
+  "family": "24 x 3 x 15 x 2",
+  "regimes": {
+    "year_stratified": {
+      "draws": 10000,
+      "seed": 2026111401,
+      "max_critical": 4.212492003816723,
+      "half_run_max_critical": [
+        4.231240958108653,
+        4.204883991393107
+      ],
+      "all_contrasts": 2160
+    },
+    "global": {
+      "draws": 10000,
+      "seed": 2026111402,
+      "max_critical": 4.213496598948333,
+      "half_run_max_critical": [
+        4.170259054570174,
+        4.23869691373839
+      ],
+      "all_contrasts": 2160
+    }
+  },
+  "supported_reversals": {
+    "global": 0,
+    "year_stratified": 0
+  },
+  "scope": "Retrospective bootstrap conditional on legacy ADS corpus; paper-level cluster only; fixed analysis maps."
+}

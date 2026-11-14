@@ -1,0 +1,14 @@
+{
+  "cells": 90,
+  "deletion_checks": 1290,
+  "counts": {
+    "joint|True": 16,
+    "mixed|False": 24,
+    "unanimous_only|False": 15,
+    "unanimous_only|True": 35
+  },
+  "short_unanimous": 19,
+  "short_unanimous_stable_under_all_deletions": 9,
+  "disjoint_descriptive_reversal_pairs_by_estimator": 15,
+  "status": "Descriptive sensitivity only; not a hypothesis test or coverage validation"
+}

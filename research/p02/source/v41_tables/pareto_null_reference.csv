@@ -1,0 +1,2 @@
+n_points,n_axes,expected_nondominated_exact_iid_continuous,mc_repetitions,p_all_nondominated_mc,mc_standard_error,seed,null_model
+6,4,4.674736111111111,200000,0.2492,0.000967210835340465,20260825,independent continuous ranks on all axes

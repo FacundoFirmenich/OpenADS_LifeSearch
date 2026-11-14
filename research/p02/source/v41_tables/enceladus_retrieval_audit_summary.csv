@@ -1,0 +1,4 @@
+screening_status,n_records,share_of_enceladus_archive,validation_level
+EXCLUDE_KNOWN_GAIA_ENCELADUS,7,0.009446693657219974,machine screen from archived title and keyword fields; not human/full-text validated
+LOWER_BOUND_INCLUDED,483,0.6518218623481782,machine screen from archived title and keyword fields; not human/full-text validated
+UNRESOLVED_FULLTEXT_ONLY,251,0.33873144399460187,machine screen from archived title and keyword fields; not human/full-text validated

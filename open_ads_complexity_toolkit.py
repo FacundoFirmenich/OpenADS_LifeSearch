@@ -26,15 +26,12 @@ except ImportError:
     print("[CRITICAL ERROR] Module 'ads' not found. Please execute: pip install ads networkx pandas seaborn")
     sys.exit(1)
 
-import base64
-
 class ADSTopologyCLI:
     def __init__(self):
-        # Public token obfuscated to prevent simple secret scraping while maintaining accessibility
-        # Encoded: L8Gl2fryv5uIGYvXuCZrhHZYlt9A3IfgBrhUvghT
-        _obf = "TDhHbDJmcnl2NXVJR1l2WHVDWnJoSFpZbHQ5QTNJZmdCcmhVdmdoVA=="
-        self.api_token = os.getenv("ADS_DEV_KEY") or base64.b64decode(_obf).decode("utf-8")
-        
+        self.api_token = os.getenv("SCIX_API_TOKEN") or os.getenv("ADS_API_TOKEN") or os.getenv("ADS_DEV_KEY")
+        if not self.api_token:
+            raise SystemExit("Set SCIX_API_TOKEN or ADS_API_TOKEN before querying ADS.")
+
         self.query = 'keyword:"astrobiology" AND year:2020-2024'
         self.max_records = 300
         self.out_dir = Path("outputs/ads_complexity_cli")

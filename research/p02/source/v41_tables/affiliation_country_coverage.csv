@@ -1,0 +1,2 @@
+n_authorship_affiliations,n_missing_affiliations,n_nonmissing_affiliations,n_country_mapped_nonmissing,country_mapping_coverage_nonmissing,method
+60485,11429,49056,46642,0.9507909328114807,high-specificity country-name matching; no city-only inference

@@ -1,0 +1,129 @@
+{
+  "schema": "p02-real-corpus-reproduction-v1",
+  "date": "2026-09-08",
+  "runtime": {
+    "python": "3.11.9",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1"
+  },
+  "manifest_members_verified": 56,
+  "manifest_members_total": 60,
+  "missing_members": [
+    "README.md",
+    "RELEASE_NOTES_v4.1.0.md",
+    "paper/manuscript.tex",
+    "paper/supplement.tex"
+  ],
+  "raw_hashes": {
+    "data/raw/Enceladus_ads_raw.csv": "7e5650b57f544a6efc9b2425cbbf132c13612a0b42e78fd95c3bba3be47db537",
+    "data/raw/Europa_ads_raw.csv": "d611499dabc65b59a95748ca59ab760058cce8db4563f93cd4889141be74ae2d",
+    "data/raw/Ganymede_ads_raw.csv": "adeb7b94da5861138271aa3a5a9db131d394014cdab4b3e305605b5b0c56c31a",
+    "data/raw/Mars_ads_raw.csv": "add2ceb21c1e30d07cba841666900f3bac7b6d8001caaddf2cbd0fa4df08e2cd",
+    "data/raw/Titan_ads_raw.csv": "f432307c3bea175ec51ca36abcdca000d2451e5d4c6f1a5afeadeef26d0a6e2f",
+    "data/raw/Venus_ads_raw.csv": "c4b1f71804d9b1666e8bf641e4bf0f7600ff7cb99959257d6768e9e644fad6fd",
+    "data/raw/all_papers_raw_concat.csv": "f3a1dc659ffd75c86434fbc94f7c6c9dc010855d1539dc61ac67ff9696026b0a"
+  },
+  "source_pipeline_sha256": "495939eb17e151fe53aa2c9ee39e804e650639b9643568d642287cb6f213b0a1",
+  "numerical_execution_view_omitted_plotting_setup_only": [
+    "import matplotlib.pyplot as plt",
+    "plt.rcParams.update({\"pdf.fonttype\": 42, \"ps.fonttype\": 42, \"font.family\": \"DejaVu Sans\"})"
+  ],
+  "raw_assignments": 10317,
+  "raw_unique": 9513,
+  "complete_assignments": 9762,
+  "complete_unique": 9021,
+  "independent_canonical_values": 42,
+  "independent_canonical_max_abs_error": 3.0253577421035516e-15,
+  "specifications_reproduced": 72,
+  "specification_values_reproduced": 3024,
+  "specification_max_abs_error": 2.2737367544323206e-13,
+  "global_edge_status_counts": {
+    "DIRECTION_DEPENDS_ON_SPECIFICATION": 55,
+    "A_GT_B_IN_TESTED_SEGMENT": 25,
+    "B_GT_A_IN_TESTED_SEGMENT": 25
+  },
+  "window_edge_status_counts": {
+    "A_GT_B_IN_TESTED_SEGMENT": 110,
+    "B_GT_A_IN_TESTED_SEGMENT": 106,
+    "DIRECTION_DEPENDS_ON_SPECIFICATION": 99
+  },
+  "segment_edge_count": 1365,
+  "window_reversals": [
+    {
+      "metric": "trend_ols",
+      "target_a": "Enceladus",
+      "target_b": "Europa",
+      "a_gt_b_windows": "2000_2023",
+      "b_gt_a_windows": "2019_2023"
+    },
+    {
+      "metric": "trend_ols",
+      "target_a": "Enceladus",
+      "target_b": "Ganymede",
+      "a_gt_b_windows": "2000_2023",
+      "b_gt_a_windows": "2019_2023"
+    },
+    {
+      "metric": "trend_ols",
+      "target_a": "Enceladus",
+      "target_b": "Venus",
+      "a_gt_b_windows": "2000_2023",
+      "b_gt_a_windows": "2010_2023|2019_2023"
+    },
+    {
+      "metric": "trend_ols",
+      "target_a": "Europa",
+      "target_b": "Mars",
+      "a_gt_b_windows": "2010_2023",
+      "b_gt_a_windows": "2000_2023"
+    },
+    {
+      "metric": "trend_theilsen",
+      "target_a": "Enceladus",
+      "target_b": "Europa",
+      "a_gt_b_windows": "2000_2023",
+      "b_gt_a_windows": "2019_2023"
+    },
+    {
+      "metric": "trend_theilsen",
+      "target_a": "Enceladus",
+      "target_b": "Ganymede",
+      "a_gt_b_windows": "2000_2023",
+      "b_gt_a_windows": "2019_2023"
+    },
+    {
+      "metric": "trend_theilsen",
+      "target_a": "Europa",
+      "target_b": "Ganymede",
+      "a_gt_b_windows": "2010_2023",
+      "b_gt_a_windows": "2000_2023"
+    },
+    {
+      "metric": "trend_theilsen",
+      "target_a": "Europa",
+      "target_b": "Mars",
+      "a_gt_b_windows": "2010_2023",
+      "b_gt_a_windows": "2000_2023"
+    }
+  ],
+  "numerical_tolerance": {
+    "atol": 1e-12,
+    "rtol": 1e-09,
+    "meaning": "numeric equality only; not practical equivalence"
+  },
+  "canonical_loto_min_external_n": 69,
+  "canonical_loto_min_external_mean": 6.217235188509874,
+  "pooled_year_top10_actual_share_range": [
+    0.09759759759759759,
+    0.10695187165775401
+  ],
+  "enceladus_strict_mask_symmetric_difference_bibcodes": [],
+  "renamed_machine_screen_records": 483,
+  "bootstrap": "ARCHIVED_2000_REPLICATES_NOT_RERUN; canonical only; not posterior or joint coverage",
+  "historical_acceptance_suite": "NOT_EXECUTED_AS_A_WHOLE; deterministic reproduction performed separately",
+  "synthetic_observational_data": "NONE",
+  "null_monte_carlo": "NOT_EXECUTED",
+  "scientific_boundary": "Conditional on archived retrieval, tested specifications and numeric definitions; no mission-value ranking",
+  "gate": "PASS"
+}

@@ -1,0 +1,29 @@
+{
+  "retrieved_utc": "2026-11-14T05:45:20.292570+00:00",
+  "sources": {
+    "HEN": {
+      "doi": "10.1089/ast.2018.1955",
+      "reported_references": 89,
+      "exposed": 89,
+      "doi_slots": 73
+    },
+    "COC": {
+      "doi": "10.1089/ast.2015.1295",
+      "reported_references": 256,
+      "exposed": 256,
+      "doi_slots": 236
+    },
+    "NEV": {
+      "doi": "10.1089/ast.2017.1773",
+      "reported_references": 213,
+      "exposed": 213,
+      "doi_slots": 187
+    }
+  },
+  "reference_slots": 558,
+  "unique_dois": 484,
+  "candidate_articles": 374,
+  "unresolved_metadata": 1,
+  "doi_free_slots": 62,
+  "status": "No independent eligibility labels or recall estimate"
+}

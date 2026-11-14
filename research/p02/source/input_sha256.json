@@ -1,0 +1,10 @@
+{
+  "raw/Enceladus_ads_raw.csv": "7e5650b57f544a6efc9b2425cbbf132c13612a0b42e78fd95c3bba3be47db537",
+  "raw/Europa_ads_raw.csv": "d611499dabc65b59a95748ca59ab760058cce8db4563f93cd4889141be74ae2d",
+  "raw/Ganymede_ads_raw.csv": "adeb7b94da5861138271aa3a5a9db131d394014cdab4b3e305605b5b0c56c31a",
+  "raw/Mars_ads_raw.csv": "add2ceb21c1e30d07cba841666900f3bac7b6d8001caaddf2cbd0fa4df08e2cd",
+  "raw/Titan_ads_raw.csv": "f432307c3bea175ec51ca36abcdca000d2451e5d4c6f1a5afeadeef26d0a6e2f",
+  "raw/Venus_ads_raw.csv": "c4b1f71804d9b1666e8bf641e4bf0f7600ff7cb99959257d6768e9e644fad6fd",
+  "raw/all_papers_raw_concat.csv": "f3a1dc659ffd75c86434fbc94f7c6c9dc010855d1539dc61ac67ff9696026b0a",
+  "specifications_reproduced.csv": "f7a377c1d34571d0044e197f12230de3b8a1c7a0bf2ce84a87a268e1d2cfa1c6"
+}

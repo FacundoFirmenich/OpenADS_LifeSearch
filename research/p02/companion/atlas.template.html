@@ -1,0 +1,169 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>P02 Evidence Atlas</title>
+<style>
+:root{color-scheme:dark;--bg:#091623;--card:#122737;--line:#294659;--text:#eaf4fb;--dim:#afd0de;--blue:#77d7ef;--amber:#ffd38c;--mint:#80e0bb;--rose:#f1a9ba}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,sans-serif}main{max-width:1460px;margin:auto;padding:clamp(16px,3vw,44px)}
+h1,h2,h3,p{margin:0 0 .6rem}h1{font-size:clamp(29px,4.5vw,61px);line-height:1.06;letter-spacing:-.055em}h2{line-height:1.2}.eyebrow{color:var(--mint);font:700 12px/1.5 ui-monospace,monospace;text-transform:uppercase;letter-spacing:.13em}
+a{color:var(--blue)}button,select,input{font:inherit;color:inherit;background:#183448;border:1px solid #42687c;border-radius:7px;padding:.44rem .65rem}button{cursor:pointer}button:hover{background:#245067}button:disabled{opacity:.45;cursor:default}button[aria-pressed=true]{border-color:var(--mint);color:var(--mint)}
+:focus-visible{outline:3px solid var(--amber);outline-offset:2px}.bar,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:.7rem 0}
+.intro{max-width:78ch;color:var(--dim);margin:.9rem 0 1.3rem}.shell{display:grid;grid-template-columns:minmax(260px,1.34fr) minmax(310px,1fr);gap:16px}
+section.panel{background:var(--card);border:1px solid var(--line);padding:15px;border-radius:12px;min-width:0}.caption{color:var(--dim);font-size:13px}.scroll{overflow:auto;max-height:440px}.catalog{margin-top:.5rem;max-height:250px}.row{display:block;width:100%;text-align:left;margin:3px 0}.badge{border:1px solid var(--line);border-radius:99px;padding:.13rem .55rem;color:var(--mint);font-size:.84em}
+.diagram{background:#0c1d2b;border-radius:8px;overflow:auto;max-height:455px}.diagram svg{display:block;height:auto;width:100%;min-width:450px}.diagram g[role=button]{cursor:pointer}.diagram g[role=button]:focus rect{stroke:var(--amber);stroke-width:4}.diagram .e:hover{stroke-width:5}
+.field{display:grid;gap:4px;min-width:112px;font-size:.83rem;color:var(--dim)}.field select,.field input{color:var(--text)}label.search{flex:1 1 180px}table{width:100%;border-collapse:collapse;font-size:.83rem}th,td{padding:5px 7px;text-align:left;border-bottom:1px solid var(--line)}th{background:#183448;position:sticky;top:0}.dense td{font-variant-numeric:tabular-nums}.note{margin:.7em 0;padding:.62em .8em;border-left:3px solid var(--amber);background:#243344}.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:.65rem 0}.stat{border:1px solid var(--line);padding:.6rem;border-radius:7px}.stat b{display:block;color:var(--mint)}.edgebtn{width:100%;display:block;text-align:left;margin:.24rem 0}.wide{margin-top:1rem}.specs{max-height:270px;overflow:auto}.joint{color:var(--mint)}.unanim{color:var(--amber)}footer{color:var(--dim);margin:1.2em 0;font-size:12px}
+@media(max-width:830px){.shell{grid-template-columns:1fr}.cols{grid-template-columns:1fr 1fr 1fr}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}@media print{body,section.panel{background:white;color:black}button,input,select,.actions,.bar{display:none}.shell{display:block}}
+</style></head><body data-mode="__P02_MODE__"><main>
+<p class="eyebrow" id="eyebrow">P02 · archived evidence · v4.5</p>
+<h1 id="heading">P02 Evidence Atlas</h1>
+<p class="intro" id="intro"></p>
+<nav class="bar" aria-label="Companion views"><a href="epistemic_graph.html">Epistemic graph</a><span aria-hidden="true"> / </span><a href="supergraph.html">Supergraph</a></nav>
+<div class="actions"><button id="prev">Previous stop</button><button id="next">Next stop</button><button id="trace" aria-pressed="false">Trace upstream</button><button id="widen">Zoom graph</button><button id="copy">Copy node link</button><button id="export">Export evidence</button><span id="note" role="status" class="caption"></span></div>
+<div class="bar" id="filters">
+<label class="field search">Find an evidence item, claim, source, or bibcode<input id="search" type="search" placeholder="e.g. Titan, 2019, Porco, 2006Sci…"></label>
+<label class="field">Branch<select id="group"></select></label>
+<label class="field">Window<select id="window"></select></label>
+<label class="field">Estimator<select id="metric"></select></label>
+<label class="field">Result<select id="status"><option value="">All statuses</option><option value="joint">Joint support</option><option value="unanimous">Unanimous only</option><option value="mixed">No unanimous sign</option><option value="reversal">Descriptive reversal</option></select></label>
+</div>
+<div class="shell">
+<section class="panel" aria-label="Navigable graph"><h2>Argument routes</h2><p class="caption">Click a card or a link. Gold marks required premises; dashed rose lines qualify scope. Edges are not causal effects. Trace shows upstream support and its limits.</p><div class="diagram" id="diagram"></div><div class="scroll catalog" id="catalog" aria-label="Matching records"></div></section>
+<section class="panel" aria-label="Evidence inspector" id="inspector"><div id="card"></div></section>
+</div>
+<section class="panel wide" id="matrixSection"><h2>Read the 90 comparisons</h2><p class="caption">Each row is a pair × window × estimator. Open any row for both resampling schemes, the 24 variants in each, and the year exclusions.</p><div class="scroll" id="matrix"></div></section>
+<footer id="footer"></footer>
+</main>
+<script id="model" type="application/json">__P02_DATA__</script>
+<script>
+'use strict';
+const M=JSON.parse(document.getElementById('model').textContent), $=id=>document.getElementById(id);
+const deep=document.body.dataset.mode==='supergraph';
+const map=new Map(M.nodes.map(n=>[n.id,n]));
+const article=new Set(M.article), allowed=n=>deep||article.has(n.id);
+const kindNames={'A_GT_B':'A greater than B','B_GT_A':'B greater than A','UNRESOLVED':'Not supported'};
+const pretty=x=>x==='trend_ols'?'OLS':x==='trend_theilsen'?'Theil–Sen':String(x).replaceAll('_','–');
+const state={id:'omissions',tour:0,up:false,zoom:false,regime:'year_stratified',status:'',edge:null,gates:new Map()};
+const e=(tag,t,cl)=>{const p=document.createElement(tag);if(t!=null)p.textContent=t;if(cl)p.className=cl;return p;};
+const sv=(tag,attrs={},t)=>{const p=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const[k,v] of Object.entries(attrs))p.setAttribute(k,v);if(t)p.textContent=t;return p;};
+const relation=k=>({requires:'#ffd38c',limits:'#f1a9ba',qualifies:'#f1a9ba',derives:'#80e0bb',supports:'#80e0bb'})[k]||'#77b4ca';
+function status(n){const s=n.data?.summary;return !s?'':+s.joint_sign?'joint':+s.descriptive_sign?'unanimous':'mixed'}
+function opts(id,base,values){const sel=$(id);sel.append(new Option(base,''));for(const v of values)sel.append(new Option(pretty(v),v));}
+opts('group','All branches',[...new Set(M.nodes.filter(allowed).map(n=>n.group))]);opts('window','All windows',['2000_2023','2010_2023','2019_2023']);opts('metric','Both estimators',['trend_ols','trend_theilsen']);
+function select(id){if(!map.has(id)||!allowed(map.get(id)))return;state.id=id;state.edge=null;history.replaceState(null,'','#'+encodeURIComponent(id));render();}
+function report(s){$('note').textContent=s}
+function dl(name,obj){const b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});const href=URL.createObjectURL(b);const a=e('a');a.href=href;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(href),1000);}
+function selectedRows(){
+ const needle=$('search').value.trim().toLowerCase(),g=$('group').value,w=$('window').value,m=$('metric').value,s=$('status').value;
+ return M.nodes.filter(n=>allowed(n)&&(!g||g===n.group)&&(!needle||[n.id,n.label,n.text,n.data?.bibcode,n.url].join(' ').toLowerCase().includes(needle))&&(!w||n.data?.summary?.window===w)&&(!m||n.data?.summary?.metric===m)&&(!s||(s==='reversal'?n.data?.reversal:status(n)===s)));
+}
+function trace(root){
+ const rel=new Set(['feeds','requires','derives','supports','limits','qualifies','checked by','contains']);
+ const seen=new Set([root]),todo=[root];
+ while(todo.length){const t=todo.shift();for(const l of M.edges)if(l.target===t&&rel.has(l.kind)&&allowed(map.get(l.source))&&!seen.has(l.source)){seen.add(l.source);todo.push(l.source);}}
+ return seen;
+}
+function words(s,n){const out=['']; for(const a of s.split(/\s+/)){const x=out.length-1;if(out[x]&&out[x].length+a.length+1>n)out.push(a);else out[x]+=(out[x]?' ':'')+a;}return out;}
+function press(g,fn){g.addEventListener('click',fn);g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();fn();}});}
+function diagram(){
+ const id=state.id, c=map.get(id);
+ const full=state.up?trace(id):new Set(M.edges.filter(l=>l.source===id||l.target===id).flatMap(l=>[l.source,l.target]).concat(id));
+ let ins=[...full].filter(k=>k!==id&&allowed(map.get(k))&&(!deep||map.get(k).kind!=='contrast'||k===id));
+ ins.sort((a,b)=>['AND gate','claim','condition','boundary','operation','branch','input'].indexOf(map.get(b).kind)-['AND gate','claim','condition','boundary','operation','branch','input'].indexOf(map.get(a).kind));
+ const L=[],R=[];
+ for(const k of ins.slice(0,12)){const outgoing=M.edges.some(l=>l.source===id&&l.target===k);(outgoing?R:L).push(k);}
+ const h=Math.max(250,(Math.max(L.length,R.length)||1)*67+32), positions=new Map([[id,[252,h/2-33]]]);
+ for(const [side,x] of [[L,12],[R,494]])side.forEach((k,i)=>positions.set(k,[x,16+i*67]));
+ const root=sv('svg',{viewBox:'0 0 724 '+h,role:'group','aria-label':'Evidence neighborhood for '+c.label});
+ root.style.width=state.zoom?'145%':'100%';root.append(sv('title',{},'Declared evidence relations for '+c.label));
+ for(const l of M.edges){
+  if(!positions.has(l.source)||!positions.has(l.target))continue;
+  const [sx,sy]=positions.get(l.source),[tx,ty]=positions.get(l.target);
+  const x1=sx<tx?sx+216:sx,x2=sx<tx?tx:tx+216;
+  const line=sv('path',{class:'e',d:'M'+x1+' '+(sy+30)+' C'+((x1+x2)/2)+' '+(sy+30)+','+((x1+x2)/2)+' '+(ty+30)+','+x2+' '+(ty+30),fill:'none',stroke:relation(l.kind),'stroke-width':2.3,'stroke-dasharray':l.kind==='limits'||l.kind==='qualifies'?'5 4':'none'});
+  const g=sv('g',{role:'button',tabindex:'0','aria-label':l.kind+': '+map.get(l.source).label+' to '+map.get(l.target).label});
+  g.append(sv('title',{},l.note),line);press(g,()=>{state.edge=l;inspect();});root.append(g);
+ }
+ for(const [k,[x,y]] of positions){
+  const n=map.get(k),g=sv('g',{role:'button',tabindex:'0','aria-label':n.label+': '+n.kind});
+  g.append(sv('rect',{x,y,width:216,height:60,rx:8,fill:k===id?'#25516a':'#172f42',stroke:k===id?'#80e0bb':relation(n.kind==='AND gate'?'requires':'feeds')}));
+  g.append(sv('text',{x:x+9,y:y+15,fill:'#afd0de','font-size':11},n.kind.toUpperCase()));
+  const ls=words(n.label,31);for(const [i,l] of ls.slice(0,2).entries())g.append(sv('text',{x:x+9,y:y+34+i*15,fill:'#eaf4fb','font-size':12,'font-weight':k===id?700:500},l+(i===1&&ls.length>2?'…':'')));
+  press(g,()=>select(k));root.append(g);
+ }
+ const wrap=$('diagram');wrap.replaceChildren(root);
+ if(ins.length>12)wrap.append(e('p','Diagram shows 12 of '+ins.length+' related cards. The inspector lists all direct links; use the catalog to reach any record.','caption'));
+}
+function table(cols,rows){
+ const t=e('table',null,'dense'),h=e('thead'),tr=e('tr');cols.forEach(c=>tr.append(e('th',c)));h.append(tr);t.append(h);
+ const b=e('tbody');for(const row of rows){const r=e('tr');for(const cell of row){const td=e('td');if(cell instanceof Node)td.append(cell);else td.textContent=cell;r.append(td);}b.append(r);}t.append(b);return t;
+}
+const f=x=>Number.isFinite(+x)?(+x).toFixed(2):'—';
+function button(text,fn,cls){const b=e('button',text,cls);b.addEventListener('click',fn);return b;}
+function inspect(){
+ const box=$('card'),n=map.get(state.id);box.replaceChildren(e('span',n.group+' / '+n.kind,'badge'),e('h2',n.label),e('p',n.text));
+ if(n.limit)box.append(e('p',n.limit,'note'));
+ if(n.url){const a=e('a','Open primary source ↗');a.href=n.url;a.target='_blank';a.rel='noopener noreferrer';box.append(a);}
+ const gate=M.gates.find(x=>x.id===n.id);
+ if(gate){
+   const sec=e('section');sec.append(e('h3','Premise check (reading aid only)'));
+   const passed=state.gates.get(n.id)||new Set();
+   for(const p of gate.inputs){const lab=e('label'),check=e('input');check.type='checkbox';check.checked=passed.has(p);
+    check.onchange=()=>{check.checked?passed.add(p):passed.delete(p);state.gates.set(n.id,passed);inspect();};
+    lab.append(check,document.createTextNode(' '+map.get(p).label));sec.append(lab,e('br'));}
+   sec.append(e('p',passed.size===gate.inputs.length?'All required premises acknowledged; archived result unchanged.':'An unchecked premise blocks the reading rule, not an empirical finding.','caption'));box.append(sec);
+ }
+ if(state.edge){const l=state.edge;box.append(e('p',map.get(l.source).label+' → '+map.get(l.target).label+' · '+l.kind+': '+l.note,'note'));}
+ if(n.kind==='anchor'){
+  const a=n.data;box.append(table(['Bibcode','Environment','Archive'],[[a.bibcode,a.environment,a.status]]));
+ }
+ if(n.kind==='contrast'){
+  const {summary:s,bands,deletions,reversal}=n.data;
+  box.append(e('p','Joint sign: '+(s.joint_sign==='0'?'not supported':s.joint_sign==='1'?'A > B':'B > A')+' · Year influence: '+(s.survives_every_year_deletion==='True'?'unanimous sign survives':'not unanimous after every deletion')+(reversal?' · descriptive reversal cell':''),'note'));
+  const ctl=e('select');for(const r of ['year_stratified','global'])ctl.append(new Option(r==='global'?'Global paper resampling':'Within-year paper resampling',r));ctl.value=state.regime;ctl.ariaLabel='Resampling regime';ctl.onchange=()=>{state.regime=ctl.value;inspect();};box.append(ctl);
+  const q=bands.filter(r=>r.regime===state.regime),sp=e('div',null,'specs');sp.append(table(['Spec','A − B (pp)','Joint low','Joint high'],q.map(r=>[r.spec_id,f(r.estimate_pp),f(r.joint_low_pp),f(r.joint_high_pp)])));box.append(sp);
+  const dt=e('details');dt.append(e('summary','All '+deletions.length+' year exclusions'),table(['Year omitted','Min (pp)','Max (pp)','Max shift'],deletions.map(r=>[r.dropped_year,f(r.minimum_pp),f(r.maximum_pp),f(r.max_shift_pp)])));box.append(dt);
+  const cmp=e('details');cmp.append(e('summary','Compare this pair across both estimators and all windows'));
+  const related=M.nodes.filter(x=>x.kind==='contrast'&&x.data.summary.target_a===s.target_a&&x.data.summary.target_b===s.target_b);
+  const describe=v=>+v>0?'A > B':+v<0?'B > A':'Unresolved';
+  cmp.append(table(['Window','Estimator','Observed','Joint'],related.map(x=>{
+    const a=x.data.summary;return [button(pretty(a.window),()=>select(x.id)),pretty(a.metric),describe(a.descriptive_sign),describe(a.joint_sign)];
+  })));box.append(cmp);
+  const year=e('select');year.setAttribute('aria-label','Select an omitted year');
+  year.append(new Option('Choose a year to omit',''));
+  for(const r of deletions)year.append(new Option(r.dropped_year,r.dropped_year));
+  const outcome=e('p','A diagnostic contrast, not a new confidence interval.','caption');
+  year.addEventListener('change',()=>{const r=deletions.find(z=>z.dropped_year===year.value);
+   outcome.textContent=r?'Without '+r.dropped_year+': observed range '+f(r.minimum_pp)+' to '+f(r.maximum_pp)+' pp; '+describe(r.sign)+'. No confidence interval was recomputed.':'A diagnostic contrast, not a new confidence interval.';});
+  box.append(year,outcome);
+ }
+ const near=M.edges.filter(l=>(l.source===n.id||l.target===n.id)&&allowed(map.get(l.source))&&allowed(map.get(l.target)));
+ const more=e('details');more.append(e('summary',near.length+' declared links'));for(const l of near){
+  const other=l.source===n.id?l.target:l.source;
+  more.append(button(l.kind+' · '+map.get(other).label,()=>select(other),'edgebtn'));
+ }box.append(more);
+}
+function render(){
+ const xs=selectedRows(),list=$('catalog');list.replaceChildren(e('p',xs.length+' matching items','caption'));
+ for(const n of xs)list.append(button(n.label,()=>select(n.id),'row'));
+ const rs=xs.filter(n=>n.kind==='contrast'),x=$('matrix');
+ if(deep)x.replaceChildren(table(['Pair','Window','Estimator','Point sign','Joint sign'],rs.map(n=>{
+  const s=n.data.summary,show=v=>+v>0?'A > B':+v<0?'B > A':'—';
+  return [button(s.target_a+' / '+s.target_b,()=>{select(n.id);$('inspector').scrollIntoView({block:'nearest'});}),pretty(s.window),pretty(s.metric),show(s.descriptive_sign),show(s.joint_sign)];
+ })));
+ diagram();inspect();
+}
+const tours=M.tours.filter(t=>allowed(map.get(t[1])));
+function tour(delta){state.tour=(state.tour+delta+tours.length)%tours.length;const [label,id]=tours[state.tour];select(id);report('Stop '+(state.tour+1)+'/'+tours.length+': '+label);}
+$('heading').textContent=deep?'P02 Supergraph':'P02 Epistemic Graph';
+$('intro').textContent=deep?'A research surface for six Solar System targets: navigate all 90 comparisons, 15 evidence anchors and the literature frontier without changing the archived estimands.':'The article at reading scale: follow physical observations and published attention through the operations that support each claim and through the limits that stop it.';
+for(const id of ['window','metric','status'])$(id).closest('label').hidden=!deep;
+$('matrixSection').hidden=!deep;
+for(const id of ['search','group','window','metric','status'])$(id).addEventListener(id==='search'?'input':'change',render);
+$('next').onclick=()=>tour(1);$('prev').onclick=()=>tour(-1);
+$('trace').onclick=x=>{state.up=!state.up;x.target.setAttribute('aria-pressed',state.up);diagram();};
+$('widen').onclick=()=>{state.zoom=!state.zoom;diagram();};
+$('copy').onclick=async()=>{const link=location.href;try{await navigator.clipboard.writeText(link);report('Copied node link.');}catch{report('Node URL: '+link);}};
+$('export').onclick=()=>{const n=map.get(state.id);dl(n.id+'.json',{release:M.release,node:n,sources:M.sources,links:M.edges.filter(l=>l.source===n.id||l.target===n.id)});report('Exported selected evidence and provenance.');};
+$('footer').textContent='Offline companion · '+M.release+' · no credentials or private record metadata · semantic links are inspectable · sources from the canonical analysis';
+window.addEventListener('hashchange',()=>{let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}if(map.has(id))select(id);});
+if(location.hash){try{select(decodeURIComponent(location.hash.slice(1)));}catch{}}
+render();document.body.dataset.ready='true';
+</script></body></html>

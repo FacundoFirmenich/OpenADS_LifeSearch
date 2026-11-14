@@ -22,3 +22,12 @@ data/
 # OS Specific
 .DS_Store
 Thumbs.db
+
+# P02 author inputs are supplied locally from the verified archive.
+research/p02/source/raw/
+research/p02/source/p02_recuperado/
+research/p02/source/p02_revision_ejecutada/
+research/p02/paper/tab_*.tex
+research/p02/paper/P02_*.tex
+research/p02/results/retrieval_coder_packet.csv
+research/p02/results/retrieval_sampling_key.csv
